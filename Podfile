@@ -9,6 +9,7 @@ target 'PastarGram' do
   # Add Parse pods and install
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
 
   target 'PastarGramTests' do
     inherit! :search_paths
