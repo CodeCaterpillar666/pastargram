@@ -36,7 +36,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="isr-fZ-c2S">
                                 <rect key="frame" x="80" y="414" width="255" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNr-uN-LQC">
@@ -220,7 +220,7 @@
         <!--Navigation Controller-->
         <scene sceneID="dd5-Io-OnZ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6NE-tq-SwV" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="6NE-tq-SwV" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mX1-n1-6b6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
